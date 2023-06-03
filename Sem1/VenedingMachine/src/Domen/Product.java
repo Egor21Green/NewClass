@@ -6,6 +6,7 @@ public class Product {
     private String productName;
     private String productCategory;
     private double price;
+    public Object setTemperature;
 
     public Product(int productId, String productName, String productCategory, double price ){
         this.productId = productId;
@@ -42,8 +43,8 @@ public class Product {
     }
     @Override
     public String toString(){
-        return "Product{" + "name" + productName + '\'' + "category =" + productCategory + '\''  +
-        ", cost=" + price + '}';
+        return "Product № " + productId + " {"  + "name = "  + productName +  ", category = " + productCategory + 
+        ", price = " + price + '}';
     }
 }
 

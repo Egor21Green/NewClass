@@ -27,8 +27,8 @@ public class BottleP extends Product {
 
     @Override
     public String toString(){
-        return "Product{" + "name" + super.getProductName() + '\'' + "category =" + super.getProductCategory() + '\''  +
-        ", cost=" + super.getPrice() + ", volume=" + volume + '}';
+        return "Product № " + super.getProductId() + " {" + "name = " + super.getProductName() + ", category = " + super.getProductCategory() + 
+        ", price = " + super.getPrice() + ", volume = " + volume + '}';
     
 }
 }
