@@ -12,7 +12,7 @@ import StudentDomen.StudentSteam;
 public class App {
     public static void main(String[] args) throws Exception {
         // User u1 = new User("Sergey", "Ivanov", 25);
-        Student s1 = new Student("Ivan", "Ivanov", 18, 101l);
+        Student s1 = new Student("Ivan", "Ivanov", 18, 101);
         Student s2 = new Student("Andrey", "Petrov", 19, 102);
         Student s3 = new Student("Kolya", "Sidorov", 20, 103);
         Student s4 = new Student("Dasha", "Collesn", 21, 104);
